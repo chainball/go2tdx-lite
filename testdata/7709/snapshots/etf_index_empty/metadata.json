@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "registry_key": "snapshots",
+  "command_code": 1356,
+  "message_id": 822083590,
+  "request_context": {
+    "$type": "dict",
+    "items": [
+      [
+        {
+          "$type": "str",
+          "value": "codes"
+        },
+        {
+          "$type": "list",
+          "items": [
+            {
+              "$type": "str",
+              "value": "sh510300"
+            },
+            {
+              "$type": "str",
+              "value": "sh000001"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  "push_generation": null,
+  "push_host": null,
+  "expected_exception": null,
+  "frame_header": {
+    "$type": "dict",
+    "items": [
+      [
+        {
+          "$type": "str",
+          "value": "control"
+        },
+        {
+          "$type": "int",
+          "value": "1"
+        }
+      ],
+      [
+        {
+          "$type": "str",
+          "value": "message_id"
+        },
+        {
+          "$type": "int",
+          "value": "822083590"
+        }
+      ],
+      [
+        {
+          "$type": "str",
+          "value": "message_type"
+        },
+        {
+          "$type": "int",
+          "value": "1356"
+        }
+      ],
+      [
+        {
+          "$type": "str",
+          "value": "zip_length"
+        },
+        {
+          "$type": "int",
+          "value": "26"
+        }
+      ],
+      [
+        {
+          "$type": "str",
+          "value": "length"
+        },
+        {
+          "$type": "int",
+          "value": "26"
+        }
+      ]
+    ]
+  },
+  "golden_schema_version": 1
+}

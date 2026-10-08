@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "registry_key": "heartbeat",
+  "command_code": 4,
+  "message_id": 822083585,
+  "request_context": {
+    "$type": "dict",
+    "items": []
+  },
+  "push_generation": null,
+  "push_host": null,
+  "expected_exception": null,
+  "frame_header": {
+    "$type": "dict",
+    "items": [
+      [
+        {
+          "$type": "str",
+          "value": "control"
+        },
+        {
+          "$type": "int",
+          "value": "1"
+        }
+      ],
+      [
+        {
+          "$type": "str",
+          "value": "message_id"
+        },
+        {
+          "$type": "int",
+          "value": "822083585"
+        }
+      ],
+      [
+        {
+          "$type": "str",
+          "value": "message_type"
+        },
+        {
+          "$type": "int",
+          "value": "4"
+        }
+      ],
+      [
+        {
+          "$type": "str",
+          "value": "zip_length"
+        },
+        {
+          "$type": "int",
+          "value": "2"
+        }
+      ],
+      [
+        {
+          "$type": "str",
+          "value": "length"
+        },
+        {
+          "$type": "int",
+          "value": "2"
+        }
+      ]
+    ]
+  },
+  "golden_schema_version": 1
+}

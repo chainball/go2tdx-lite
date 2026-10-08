@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "registry_key": "security_count",
+  "command_code": 1102,
+  "message_id": 805306374,
+  "request_context": {
+    "$type": "dict",
+    "items": [
+      [
+        {
+          "$type": "str",
+          "value": "market"
+        },
+        {
+          "$type": "str",
+          "value": "sz"
+        }
+      ],
+      [
+        {
+          "$type": "str",
+          "value": "client_date_yyyymmdd"
+        },
+        {
+          "$type": "int",
+          "value": "20260519"
+        }
+      ]
+    ]
+  },
+  "push_generation": null,
+  "push_host": null,
+  "expected_exception": null,
+  "frame_header": {
+    "$type": "dict",
+    "items": [
+      [
+        {
+          "$type": "str",
+          "value": "control"
+        },
+        {
+          "$type": "int",
+          "value": "1"
+        }
+      ],
+      [
+        {
+          "$type": "str",
+          "value": "message_id"
+        },
+        {
+          "$type": "int",
+          "value": "805306374"
+        }
+      ],
+      [
+        {
+          "$type": "str",
+          "value": "message_type"
+        },
+        {
+          "$type": "int",
+          "value": "1102"
+        }
+      ],
+      [
+        {
+          "$type": "str",
+          "value": "zip_length"
+        },
+        {
+          "$type": "int",
+          "value": "8"
+        }
+      ],
+      [
+        {
+          "$type": "str",
+          "value": "length"
+        },
+        {
+          "$type": "int",
+          "value": "8"
+        }
+      ]
+    ]
+  },
+  "golden_schema_version": 1
+}
