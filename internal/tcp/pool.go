@@ -15,7 +15,7 @@ import (
 	"syscall"
 	"time"
 
-	"go2tdx/internal/frame"
+	"github.com/chainball/go2tdx-lite/internal/frame"
 )
 
 // defaultTimeout bounds a single Exec (write + response read) when no matching

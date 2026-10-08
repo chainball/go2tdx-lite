@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"go2tdx/internal/frame"
-	"go2tdx/internal/gbk"
+	"github.com/chainball/go2tdx-lite/internal/frame"
+	"github.com/chainball/go2tdx-lite/internal/gbk"
 )
 
 // sessionFixture reads a frozen 7709 fixture capture relative to testdata/7709.

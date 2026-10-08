@@ -4,7 +4,7 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"go2tdx/internal/codec"
+	"github.com/chainball/go2tdx-lite/internal/codec"
 )
 
 const (

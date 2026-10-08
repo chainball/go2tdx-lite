@@ -8,8 +8,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"go2tdx/internal/codec"
-	"go2tdx/internal/frame"
+	"github.com/chainball/go2tdx-lite/internal/codec"
+	"github.com/chainball/go2tdx-lite/internal/frame"
 )
 
 // barsMeta reads the top-level command_code / message_id fields of a frozen

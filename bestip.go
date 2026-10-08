@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"go2tdx/internal/frame"
+	"github.com/chainball/go2tdx-lite/internal/frame"
 )
 
 // probeResult is one server's speed-test outcome.

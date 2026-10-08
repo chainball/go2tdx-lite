@@ -1,4 +1,4 @@
-module go2tdx
+module github.com/chainball/go2tdx-lite
 
 go 1.27
 

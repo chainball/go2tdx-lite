@@ -6,7 +6,7 @@ import (
 	"errors"
 	"math"
 
-	"go2tdx/internal/codec"
+	"github.com/chainball/go2tdx-lite/internal/codec"
 )
 
 const (

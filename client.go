@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"go2tdx/internal/tcp"
+	"github.com/chainball/go2tdx-lite/internal/tcp"
 )
 
 // errShortBody reports a response payload too small to decode.

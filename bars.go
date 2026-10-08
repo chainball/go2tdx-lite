@@ -4,7 +4,7 @@ import (
 	"encoding/binary"
 	"time"
 
-	"go2tdx/internal/codec"
+	"github.com/chainball/go2tdx-lite/internal/codec"
 )
 
 const msgKlines uint16 = 1325

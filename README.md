@@ -1,4 +1,4 @@
-# go2tdx
+# go2tdx-lite
 
 Go 语言通达信（TDX）7709 行情协议的 clean-room 实现，一个纯 Go 的行情数据客户端库。
 
@@ -14,7 +14,7 @@ Go 语言通达信（TDX）7709 行情协议的 clean-room 实现，一个纯 Go
 ## 安装
 
 ```bash
-go get go2tdx
+go get github.com/chainball/go2tdx-lite
 ```
 
 ## 快速开始
@@ -25,7 +25,7 @@ package main
 import (
 	"fmt"
 
-	"go2tdx"
+	"github.com/chainball/go2tdx-lite"
 )
 
 func main() {
@@ -88,6 +88,10 @@ go test ./...
 ```
 
 测试离线运行，不发起真实网络请求。
+
+## 免责声明
+
+本项目为通达信 7709 协议的净室实现，仅供学习研究用途，详见 [DISCLAIMER](DISCLAIMER.md)。
 
 ## License
 

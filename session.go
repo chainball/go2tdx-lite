@@ -4,7 +4,7 @@ import (
 	"encoding/binary"
 	"time"
 
-	"go2tdx/internal/gbk"
+	"github.com/chainball/go2tdx-lite/internal/gbk"
 )
 
 const (

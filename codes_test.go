@@ -9,8 +9,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"go2tdx/internal/frame"
-	"go2tdx/internal/gbk"
+	"github.com/chainball/go2tdx-lite/internal/frame"
+	"github.com/chainball/go2tdx-lite/internal/gbk"
 )
 
 // codesMeta reads the top-level command_code / message_id fields of a frozen
