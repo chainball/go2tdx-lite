@@ -77,10 +77,6 @@ c, _ := go2tdx.Dial(go2tdx.Server{Name: "s1", Host: "103.221.142.66", Port: 7709
 - `DefaultServers` — 8 台主站
 - `StandardServers` — 92 台候选，`DialBest` 启动时测速选优
 
-## 协议
-
-7709 TCP 行情协议的逐命令字段说明见 [`docs/COMMANDS_7709.md`](docs/COMMANDS_7709.md)。
-
 ## 测试
 
 ```bash
